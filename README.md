@@ -12,3 +12,5 @@ all coupled with a django authentication system that configure the visit and acc
 
 
 ![Screenshot (138)](https://user-images.githubusercontent.com/115407251/231180011-14e49b57-0357-4aa7-b4ca-9c6b1de51492.png)
+
+![Screenshot (140)](https://user-images.githubusercontent.com/115407251/231180320-f98ffb79-3182-40c6-ae81-3808a0ca22f7.png)
