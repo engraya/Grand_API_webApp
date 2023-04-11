@@ -1,12 +1,20 @@
 # Grand_API_webApp
-A complete cobination of API Applications in a single WebApp that gives a user the chance to explore different concepts of Application Programmming Interface with a full Authentication System.
-The Applicaiton encompasses 4 different stand-alone web Applications that are merged in a single webApp with different Functionality, built using the Django Web Framework
+
+A complete combination of API Applications in a single WebApp gives a user a chance to explore different concepts of Application Programming Interface with an entire Authentication System.
+
+The application encompasses 4 different stand-alone web Applications that are merged into a single web app with additional Functionality, built using the Django Web Framework
+
 The Applications combined include:
-A web_API application that generates the weather application of diffrent cities in the wolrd with their geographical and meteorological information
-A web_API Dictionary Application that gives the meanings, synonyms and antonyms of words
-A web_API Email validator, biult using a python email package that validates an email adress valid or invalid 
-A web_API cHAT Assistant that uses the SEO algrithm to provided almost the answer for any informaton requested
-all coupled with a django authentication system that configure the visit and accessibility of users to the web application
+
+A web_API application that generates the weather application of different cities in the world with their geographical and meteorological information
+
+A web_API Dictionary Application that gives the meanings, synonyms, and antonyms of words
+
+A web_API Email validator, built using a python email package that validates an email address valid or invalid 
+
+A web_API cHAT Assistant that uses the SEO algorithms to provided almost the answer for any information requested
+
+all coupled with a Django authentication system that configures the visit and accessibility of users to the web application
 
 ![Screenshot (137)](https://user-images.githubusercontent.com/115407251/231179317-8275843a-7b9c-47b8-b734-60cdefc35948.png)
 
