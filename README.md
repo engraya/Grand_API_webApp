@@ -8,3 +8,4 @@ A web_API Email validator, biult using a python email package that validates an 
 A web_API cHAT Assistant that uses the SEO algrithm to provided almost the answer for any informaton requested
 all coupled with a django authentication system that configure the visit and accessibility of users to the web application
 
+![Screenshot (137)](https://user-images.githubusercontent.com/115407251/231179317-8275843a-7b9c-47b8-b734-60cdefc35948.png)
