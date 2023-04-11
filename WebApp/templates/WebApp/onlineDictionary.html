@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body{
+            margin-top:20px;
+            background:#dcdcdc;
+        }
+        .card-box {
+            padding: 20px;
+            border-radius: 3px;
+            margin-bottom: 30px;
+            background-color: #fff;
+        }
+        .search-result-box .tab-content {
+            padding: 30px 30px 10px 30px;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            -moz-box-shadow: none
+        }
+        
+        .search-result-box .search-item {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e3eaef;
+            margin-bottom: 20px
+        }
+        .text-success {
+            color: #0acf97!important;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .btn-custom {
+            background-color: #02c0ce;
+            border-color: #02c0ce;
+        }
+        
+        .btn-custom, .btn-danger, .btn-info, .btn-inverse, .btn-pink, .btn-primary, .btn-purple, .btn-success, .btn-warning {
+            color: #fff!important;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="search-result-box card-box">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="pt-3 pb-4">
+                                    <form action="">
+                                        <div class="input-group">
+                                            <input type="text" id="" name="search" class="form-control" placeholder="Search your Favorite word here">
+                                            <div class="input-group-append">
+                                                <button type="submit" class="btn waves-effect waves-light btn-custom" >Search</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="mt-4 text-center">
+                                        <h4>{{word}}</h4></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                        <ul class="nav nav-tabs tabs-bordered">
+                            <li class="nav-item"><a href="#home" data-toggle="tab" aria-expanded="true" class="nav-link active">All results <span class="badge badge-success ml-1"></span></a></li>
+                            
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="search-item">
+                                            <h4 class="mb-1"><a href="#">MEANING</a></h4>
+                                            <div class="font-13 text-success mb-3">https://www.bootdey.com</div>
+                                            <p class="mb-0 text-muted">{{meanings}}</p>
+                                        </div>
+                                        <div class="search-item">
+                                            <h4 class="mb-1"><a href="#">SYNONYMS</a></h4>
+                                            <div class="font-13 text-success mb-3">https://www.bootdey.com/bootstrap-snippets?utf8=%E2%9C%93&q=snippet</div>
+                                            <p class="mb-0 text-muted">{{synonyms}}</p>
+                                        </div>
+            
+                                        <div class="search-item">
+                                            <h4 class="mb-1"><a href="#">ANTONYMS</a></h4>
+                                            <div class="font-13 text-success mb-3">https://www.bootdey.com/</div>
+                                            <p class="mb-0 text-muted">{{antonoyms}}</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end All results tab -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- container -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>

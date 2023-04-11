@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>eStartup Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img2/favicon.png' %}" rel="icon">
+  <link href="{% static 'img2/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="{% static 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor2/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor2/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor2/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor2/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor2/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css2/style.css' %}" rel="stylesheet">
+
+  <style>
+    body{
+      background: url("/static/images/api4.jpg");
+    }
+    #logoPic{
+      width: 70px;
+      height: 70px;
+      margin-left: 350px;
+      border-radius: 50%;
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <a href="index.html"><img id="logoPic" src="{% static 'images/api1.jpg' %}" alt="" title="" /></a>
+    <div class="container d-flex align-items-center justify-content-between">
+      <div id="logo">
+       
+        <h1><a href="/"><span>GRAND</span>API WEB</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+      </div>
+    </div>
+  
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-in">
+      <h1 style="color: white;">Welcome to GRAND API WEB</h1>
+      <h2 style="color: white;">Explore Elegants App Features with API and more...</h2>
+      <img src="{% static 'img2/hero-img.png' %}" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <a href="{% url 'register' %}" class="btn-get-started scrollto">Register</a>
+      <a href="{% url 'login' %}" class="btn-get-started scrollto">Sign In</a>
+      <!-- <a href="{% url 'homePage' %}" class="btn-get-started scrollto">Home Page</a> -->
+      <div class="btns">
+        <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
+        <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
+        <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor2/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor2/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor2/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor2/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor2/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js2/main.js' %}"></script>
+
+</body>
+
+</html>
