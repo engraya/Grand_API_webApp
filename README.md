@@ -9,3 +9,6 @@ A web_API cHAT Assistant that uses the SEO algrithm to provided almost the answe
 all coupled with a django authentication system that configure the visit and accessibility of users to the web application
 
 ![Screenshot (137)](https://user-images.githubusercontent.com/115407251/231179317-8275843a-7b9c-47b8-b734-60cdefc35948.png)
+
+
+![Screenshot (138)](https://user-images.githubusercontent.com/115407251/231180011-14e49b57-0357-4aa7-b4ca-9c6b1de51492.png)
